@@ -90,6 +90,9 @@ export default class IndexPage extends React.Component {
               Radio Public</a>
             <a className="d-block" href="https://castro.fm/podcast/7c17a882-5b38-4f42-bd91-2a38c70a0414" target="_blank">
               Castro</a>
+            <a className="d-block" href="https://www.listennotes.com/podcasts/project-mmmk-gotcha-carrie-arbogast-jNdC5wx2-hc/" target="_blank">
+              Listen Notes</a>
+
           </div>
         </section>
 
@@ -99,15 +102,34 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-8 text-center">
                 <h2 className="mt-0">Let's Get In Touch!</h2>
                 <hr className="divider my-4"/>
-                <p className="text-muted mb-5">Send us feedback!</p>
+                <p className="text-muted mb-5">Send us feedback! <br/>Wanna guest star or be interviewed?</p>
               </div>
             </div>
             <div className="row">
 
-              <div className="col-lg-12 mr-auto text-center">
-                <i className="fas fa-envelope fa-3x text-muted"></i>
+              <div className="col-lg-4 text-center">
+                <div className="mt-5">
+                <i className="fas fa-envelope fa-4x text-primary"></i>
+                  <h3 className="h4 mb-2">Send us an Email!</h3>
                 <a className="d-block" href="mailto:projectmmmkgotcha@gmail.com"
                   target="_blank" rel="noopener noreferrer">projectmmmkgotcha@gmail.com</a>
+                </div>
+              </div>
+
+              <div className="col-lg-4 text-center">
+                <div className="mt-5">
+                  <i className="fab fa-4x fa-facebook text-dark mb-4"></i>
+                  <h3 className="h4 mb-2">Facebook</h3>
+                  <a className="btn btn-outline-dark btn-sm" href="https://www.facebook.com/ProjectMmmkGotcha/">Message us!</a>
+                </div>
+              </div>
+
+              <div className="col-lg-4 text-center">
+                <div className="mt-5">
+                  <i className="fab fa-4x fa-twitter text-info mb-4"></i>
+                  <h3 className="h4 mb-2">Twitter</h3>
+                  <a className="btn btn-outline-info btn-sm" href="https://twitter.com/GotchaMmmk">Tweet @ us!</a>
+                </div>
               </div>
 
             </div>
