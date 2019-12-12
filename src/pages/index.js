@@ -60,7 +60,7 @@ export default class IndexPage extends React.Component {
                 <div className="mt-5">
                   <i className="fab fa-4x fa-apple text-dark mb-4"></i>
                   <h3 className="h4 mb-2">Apple Podcasts</h3>
-                  <a className="btn btn-outline-dark btn-sm" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9lZTk2NWU4L3BvZGNhc3QvcnNz">Tune in!</a>
+                  <a className="btn btn-outline-dark btn-sm" href="https://podcasts.apple.com/podcast/id1482918951">Tune in!</a>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
@@ -88,7 +88,8 @@ export default class IndexPage extends React.Component {
               Pocket Casts</a>
             <a className="d-block" href="https://radiopublic.com/project-mmmk-gotcha-WlQr5w" target="_blank">
               Radio Public</a>
-
+            <a className="d-block" href="https://castro.fm/podcast/7c17a882-5b38-4f42-bd91-2a38c70a0414" target="_blank">
+              Castro</a>
           </div>
         </section>
 
@@ -108,6 +109,7 @@ export default class IndexPage extends React.Component {
                 <a className="d-block" href="mailto:projectmmmkgotcha@gmail.com"
                   target="_blank" rel="noopener noreferrer">projectmmmkgotcha@gmail.com</a>
               </div>
+
             </div>
           </div>
         </section>
