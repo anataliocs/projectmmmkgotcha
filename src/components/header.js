@@ -23,6 +23,9 @@ export default class Header extends React.Component {
                            items={["about", "services", "portfolio", "contact"]}
                            currentClassName="active" rootEl={"#mainNav"} offset={-75}>
 
+                    <li className="nav-item">
+                        <Nav.Link className={"js-scroll-trigger"} href="#listen" onClick={Scroller.handleAnchorScroll}>Listen</Nav.Link>
+                    </li>
                   <li className="nav-item">
                     <Nav.Link className={"js-scroll-trigger"} href="#contact" onClick={Scroller.handleAnchorScroll}>Contact</Nav.Link>
                   </li>
