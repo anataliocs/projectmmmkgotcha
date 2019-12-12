@@ -105,7 +105,8 @@ export default class IndexPage extends React.Component {
 
               <div className="col-lg-12 mr-auto text-center">
                 <i className="fas fa-envelope fa-3x text-muted"></i>
-                <a className="d-block" href="mailto:contact@yourwebsite.com" target="_blank">projectmmmkgotcha@gmailcom</a>
+                <a className="d-block" href="mailto:projectmmmkgotcha@gmail.com"
+                  target="_blank" rel="noopener noreferrer">projectmmmkgotcha@gmail.com</a>
               </div>
             </div>
           </div>
